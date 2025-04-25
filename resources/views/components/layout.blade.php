@@ -18,7 +18,7 @@
         <nav class="flex justify-between items-center py-4 border-b border-white/10">
             <div>
                 <a href="">
-                    <img src="{{ Vite::asset('resources/images/logo_updated.svg') }}" alt="">
+                    <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="">
 
                 </a>
             </div>
@@ -31,14 +31,14 @@
 
             @auth
                 <div>
-                <a href="/jobs/create">Post a Job </a>
-            </div>
+                    <a href="/jobs/create">Post a Job </a>
+                </div>
             @endauth
-               
+
             @guest
                 <div class="space-x-6 font-bold">
                     <a href="/register">Sign In </a>
-                    <a href="/login">Login In </a> 
+                    <a href="/login">Login In </a>
                 </div>
             @endguest
 
