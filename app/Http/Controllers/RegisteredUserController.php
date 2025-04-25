@@ -23,8 +23,8 @@ class RegisteredUserController extends Controller
      */
     public function create()
     {
-       return view ('auth.register');
-        }
+        return view('auth.register');
+    }
 
     /**
      * Store a newly created resource in storage.
@@ -42,18 +42,19 @@ class RegisteredUserController extends Controller
             'logo' => ['required', File::types(['png', 'jpg', 'webp'])],
         ]);
         $user = User::create($userAttributes);
- 
-         $logoPath = $request->logo->store('logos');
- 
-         $user->employer()->create([
-             'name' => $employerAttributes['employer'],
-             'logo' => $logoPath,
-         ]);
- 
-         Auth::login($user);
- 
-         return redirect('/');
- } 
+
+        // $logoPath = $request->logo->store('logos');
+        $logoPath = $request->logo->store('logos');
+
+        $user->employer()->create([
+            'name' => $employerAttributes['employer'],
+            'logo' => $logoPath,
+        ]);
+
+        Auth::login($user);
+
+        return redirect('/');
+    }
 
     /**
      * Display the specified resource.
