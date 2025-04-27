@@ -5,23 +5,23 @@ CareerCraft is a simple Laravel-based Job Portal where users can discover job op
 
 ## Features ✨
 
-- [User authentication (Login/Register) using Laravel middleware.
-- [Job posting and management.
-- [Search and filter job listings.
-- [Responsive design built with Tailwind CSS
-- [Rating system for books
-- [Admin panel to manage books and reviews.
-- [Responsive and user-friendly design
+- User authentication (Login/Register) using Laravel middleware.
+- Job posting and management.
+- Search and filter job listings.
+- Responsive design built with Tailwind CSS
+- Rating system for books
+- Admin panel to manage books and reviews.
+- Responsive and user-friendly design
 
 
 ## Tech Stack 🛠
-- [Backend: Laravel
+- Backend: Laravel
 
-- [Database: MySQL
+- Database: MySQL
 
-- [Frontend: Blade Templates + Tailwind CSS
+- Frontend: Blade Templates + Tailwind CSS
 
-- [Authentication:Laravel Middleware & Auth
+- Authentication:Laravel Middleware & Auth
 
 ## Installation 🚀
 Follow these steps to run the project locally:</br>
