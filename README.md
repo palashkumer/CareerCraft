@@ -4,7 +4,7 @@ CareerCraft is a simple Laravel-based Job Portal where users can discover job op
 
 ## 🎬 Project Demo
 
-▶️ [Watch Demo Video on Google Drive](https://drive.google.com/drive/folders/1-ec3_zFBY9WCgIsWKtrCqhB4Wri6nMfV?usp=sharing)
+▶️ [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1vvJsqSGpIWPXoEJDMTOojFnQikQ-qx6z/view?usp=sharing)
 
 ## Features ✨
 
