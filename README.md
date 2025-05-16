@@ -1,4 +1,3 @@
-
 ## CareerCraft 💼
 CareerCraft is a simple Laravel-based Job Portal where users can discover job opportunities and employers can post job openings easily.
 
@@ -9,11 +8,9 @@ CareerCraft is a simple Laravel-based Job Portal where users can discover job op
 ## Features ✨
 
 - User authentication (Login/Register) using Laravel middleware.
-- Job posting and management.
+- Job posting.
 - Search and filter job listings.
 - Responsive design built with Tailwind CSS
-- Rating system for books
-- Admin panel to manage books and reviews.
 - Responsive and user-friendly design
 
 
@@ -24,7 +21,7 @@ CareerCraft is a simple Laravel-based Job Portal where users can discover job op
 
 - Frontend: Blade Templates + Tailwind CSS
 
-- Authentication:Laravel Middleware & Auth
+- Authentication: Laravel Middleware & Auth
 
 ## Installation 🚀
 Follow these steps to run the project locally:</br>
@@ -33,7 +30,7 @@ Follow these steps to run the project locally:</br>
 git clone https://github.com/palashkumer/CareerCraft.git
  ```
 
-# 2. Navigate into the project directory
+# 2. Navigate to the project directory
 ```bash
 cd CareerCraft
 ```
